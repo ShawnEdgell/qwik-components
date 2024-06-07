@@ -1,0 +1,62 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+html,
+body {
+  @apply h-full min-h-screen w-full bg-gray-100 text-gray-900;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply antialiased;
+}
+
+#root,
+main {
+  @apply h-full;
+}
+
+.container {
+  @apply mx-auto h-full max-w-5xl p-6;
+}
+
+.hero {
+  @apply mx-auto h-full max-w-5xl justify-center p-6;
+}
+
+/* Global styling for headers */
+h1 {
+  @apply mb-8 text-4xl font-bold;
+}
+
+h2 {
+  @apply mb-6 text-3xl font-semibold;
+}
+
+h3 {
+  @apply mb-4 text-2xl font-medium;
+}
+
+h4 {
+  @apply mb-4 text-xl font-medium;
+}
+
+h5 {
+  @apply mb-4 text-lg font-medium;
+}
+
+h6 {
+  @apply mb-4 text-base font-medium;
+}
+
+/* Global styling for paragraphs */
+p {
+  @apply mb-6 leading-relaxed;
+}
